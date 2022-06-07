@@ -1,5 +1,5 @@
 # WebApp: Lista de Compras
-
+### [Vídeo / demonstração](https://youtu.be/DNOjo31UIYs)
 ## Descrição
 O projeto realizado é uma aplicação estilo CRUD (create, read, update, and delete) básica, tomando a forma de uma lista de compras possuindo cinco funcionalidades distintas:
  1. **Ler** o registros no banco de dados;
