@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="w3.css" />
+    <title>2° Bimestre, Programação Avançada para WEB</title>
+  </head>
+  <body>
+    <main>
+      <!-- Inset-block para os elementos ficarem lado-a-lado -->
+      <div class="parent">
+        <div class="child">
+          <input placeholder="Item" type="text" id="inItem" />
+          <button id="btnAdicionar">Adicionar</button>
+        </div>
+        <div class="child">
+          <input placeholder="Procurar por item" type="text" id="inProcurar" />
+          <button id="btnProcurar">Procurar</button>
+        </div>
+      </div>
+      <!-- Se colocar alguma cor aqui a tabela inteira quebra... -->
+      <table id="table" class="w3-table-all w3-centered w3-card-4 w3-margin">
+        <thead>
+          <th>ID</th>
+          <th>Item</th>
+          <th>Adicionado em</th>
+          <th>Editar</th>
+          <th>Excluir</th>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <!-- A seção de atualizar aparece apenas quando for clicado btnEditar -->
+      <section hidden id="colAtualizar">
+        <input placeholder="Item" type="text" id="inAtualizar" />
+        <button id="btnAtualizar">Atualizar</button>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
